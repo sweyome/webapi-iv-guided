@@ -3,7 +3,7 @@ require('dotenv').config();
 const server = require('./api/server.js');
 const port = process.env.PORT || 4000;
 
-server.listen(4000, () => {
+server.listen(5000, () => {
   console.log(`\n*** Server Running on ${port} ***\n`);
 });
 //! when running locally the IP is taking care of my localHost!!!
